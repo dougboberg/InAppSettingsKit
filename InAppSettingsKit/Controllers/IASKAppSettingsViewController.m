@@ -968,8 +968,8 @@ CGRect IASKCGRectSwap(CGRect rect);
 	self.rowHeights[textView.key] = @(MAX(44, MIN(maxHeight, contentHeight)));
 	textView.scrollEnabled = contentHeight > maxHeight;
 
-	[self.tableView beginUpdates];
-	[self.tableView endUpdates];
+//	[self.tableView beginUpdates];
+//	[self.tableView endUpdates];
 }
 
 #pragma mark Notifications
